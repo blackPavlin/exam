@@ -208,6 +208,105 @@ body {
     background: url(/images/card-5.jpg) no-repeat;
 }
 
+
+
+
+
+
+.button-left, .button-right {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button-left img, .button-right img {
+    width: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.image {
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+}
+
+.image img {
+    width: 100%;
+}
+
+.text-container {
+    text-align: left; 
+    position: absolute; 
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.pic-title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #31859c;
+}
+
+.text-4 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.text1 {
+    font-weight: bold;
+    color: #333333;
+    margin-top: 5px; 
+}
+
+.text2 {
+    margin-top: 10px;
+    color: #333333;
+    margin-top: 5px; 
+}
+
+.orange-button {
+    display: inline-block;
+    padding: 20px 200px;
+    background-color: #e76c20;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.orange-button:hover {
+    background-color: darkorange;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-2 {
+    background: rgba(0, 0, 0, 0.08) center 0;
+}
+
+.image-2 {
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+}
+
+.image-2 img {
+    width: px;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
