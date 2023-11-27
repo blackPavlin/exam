@@ -286,11 +286,14 @@ body {
 }
 
 .advantages-list {
-    background: rgba(0, 0, 0, 0.08) center 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, white 25%, rgba(0, 0, 0, 0.08) 25%, rgba(0, 0, 0, 0.08) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .advantage {
@@ -314,6 +317,7 @@ body {
     color: #333333;
     font-weight: 300;
     line-height: 1.2;
+    overflow-wrap: break-word;
 }
 
 .wrapper-in {
