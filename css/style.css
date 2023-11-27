@@ -94,7 +94,8 @@ body {
 .offers,
 .popular,
 .advantages,
-.payment {
+.payment, 
+.advantages-list{
     margin-top: 150px;
 }
 
@@ -282,6 +283,57 @@ body {
 .reviews .image {
     width: 250px;
     margin: 80px 0;
+}
+
+.advantages-list {
+    background: rgba(0, 0, 0, 0.08) center 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage:not(:last-child) {
+    margin-right: 25px;
+}
+.advantage .title  {    
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+    }
+
+.advantage .description {
+    color: #333333;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.wrapper-in {
+    border-radius: 50%;
+    background: #2f859c;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-out {
+    border-radius: 50%;
+    background: #ffffff;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .payment {
