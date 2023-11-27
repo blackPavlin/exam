@@ -311,13 +311,16 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #333333;
+    text-align: center;
+    margin-bottom: 0;
     }
 
 .advantage .description {
     color: #333333;
     font-weight: 300;
     line-height: 1.2;
-    overflow-wrap: break-word;
+    text-align: center;
+    margin-top: 0;
 }
 
 .wrapper-in {
